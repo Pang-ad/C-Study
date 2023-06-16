@@ -1,0 +1,7 @@
+迭代器
+vector<int>::iterator itBegin=v.begin();  //起始迭代器，指向容器中第一个元素
+vector<int>::iterator itEnd=v.end();      //结束迭代器，指向容器中最后一个元素的下一个位置
+
+使用标准遍历算法  #include<algorithm>
+for_each(v.begin(),v.end(),Other)
+
