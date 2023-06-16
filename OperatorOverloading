@@ -117,16 +117,13 @@ public:
   int m_age;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+函数调用运算符重载（仿函数）
+class MyPrint
+{
+public:
+  void operator()(string test)
+  {
+    cout<<test<<endl;
+  }
+}
 
